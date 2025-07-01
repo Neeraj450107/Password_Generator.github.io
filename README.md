@@ -30,7 +30,7 @@ https://neeraj450107.github.io/Password_Generator.github.io/
 
 ## Demo
 
-
+https://github.com/user-attachments/assets/27cdca53-2d6c-4e53-a446-9224bc38da77
 
 
 ## 🖥️ Tech Stack
@@ -43,7 +43,8 @@ https://neeraj450107.github.io/Password_Generator.github.io/
 ## Screenshots
 
 
-
+![Image](https://github.com/user-attachments/assets/2f680abb-b5b2-4a01-8db1-3ecfdd5deb3e)
+![Image](https://github.com/user-attachments/assets/3f788f0d-1abd-446b-86a6-c6d7574cbccf)
 
 ## Getting Started
 
