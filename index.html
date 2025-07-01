@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator | NKP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- header portion -->
+          
+        <h1>Password Generator</h1>
+
+        <!-- Display Portion  -->
+
+        <section class="display">
+            <input readonly placeholder="PASSWORD" id="passwordDisplay">
+            <div class="dataCopy">
+              <p id="copyMsg"></p>
+              <img src="copy.png" id="passwordCopy" width="40"  height="41">
+            </div>
+        </section>
+
+       <section class="conditionBox">
+
+           <!-- Password length -->
+
+           <div class="passwordLength">
+             <p>Password Length</p>
+             <p id="passwordLengthNumber">0</p>
+           </div>
+
+           <!-- Slider -->
+
+           <input type="range" min="1" max="20" class="slider" step="1">
+
+           <!-- Condition Uppercase , Lowercase etc -->
+
+           <section class="condition">
+            
+               <div>
+                 <input type="checkbox" id="uppercase">
+                 <label for="uppercase">Include Uppercase Letters</label>
+               </div>
+            
+               <div>
+                 <input type="checkbox" id="lowercase">
+                 <label for="lowercase">Include Lowercase Letters</label>
+               </div>
+
+               <div>
+                 <input type="checkbox" id="numbers">
+                 <label for="numbers">Include Numbers </label>
+               </div>
+
+               <div>
+                 <input type="checkbox" id="symbols">
+                 <label for="symbols">Include Symbols </label>
+               </div>
+
+           </section>
+
+          <!-- Password Strength -->
+
+          <section class="strength">
+               <p>Strength</p>
+               <div class="strengthColor" ></div>
+           </section>
+        
+       </section>
+
+        <!-- Generate Button  -->
+
+        <button class="generatePassword"><h2>GENERATE  PASSWORD</h2></button>
+        <button class="reset" onclick="resetButton()">Reset</button>
+        
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
